@@ -28,12 +28,8 @@ error_reporting(E_ALL);
 echo "<h2>PHP Array Practice</h2>";
 
 $numbers = array(7, 9, 8, 9, 8, 8, 6);
-function printArr(array $nums) {
-    foreach ($nums as $num) {
-        echo $num."<br>";
-    }
-}
-echo "<h3>Step 2: </h3>";
+include("functions.php");
+echo "<h3>Step 3: </h3>";
 printArr($numbers);
 ?>
 
