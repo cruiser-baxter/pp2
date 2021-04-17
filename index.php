@@ -24,7 +24,9 @@ error_reporting(E_ALL);
 <header>
     <h1>Pair Program 2</h1>
 </header>
-
+<?php
+echo "<h3>PHP Array Practice</h3>";
+?>
 
 </body>
 </html>
