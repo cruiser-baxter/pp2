@@ -15,3 +15,16 @@ function largest( array $nums) {
 
     return $largest;
 }
+
+function removeDups(array $nums) {
+    $noDups = array();
+
+    foreach ($nums as $num) {
+        if (!in_array($num, $noDups)) {
+            array_push($noDups, $num);
+        }
+    }
+    foreach ($noDups as $num) {
+        echo $num."<br>";
+    }
+}

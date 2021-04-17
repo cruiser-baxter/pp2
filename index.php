@@ -29,10 +29,12 @@ echo "<h2>PHP Array Practice</h2>";
 
 $numbers = array(7, 9, 8, 9, 8, 8, 6);
 include("functions.php");
-echo "<h3>Step 3: </h3>";
+echo "<h3>Step 2/3: </h3>";
 printArr($numbers);
 echo "<h3>Step 4</h3>";
 echo "Largest: ".largest($numbers);
+echo "<h3>Step 5</h3>";
+removeDups($numbers);
 
 ?>
 
