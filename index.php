@@ -1,3 +1,16 @@
+<?php
+/*
+  Author: Cruiser Baxter
+ Date: 17-Apr-2021
+ Assignment: Pair Program 2
+ File URL: http://cbaxter.greenriverdev.com/SDEV328/pp2/index.php
+  */
+
+// turn on error reporting
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
