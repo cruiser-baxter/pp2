@@ -31,6 +31,9 @@ $numbers = array(7, 9, 8, 9, 8, 8, 6);
 include("functions.php");
 echo "<h3>Step 3: </h3>";
 printArr($numbers);
+echo "<h3>Step 4</h3>";
+echo "Largest: ".largest($numbers);
+
 ?>
 
 </body>
